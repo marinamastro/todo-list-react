@@ -6,7 +6,12 @@ import s from "./App.module.css";
 function App (){
   let input = useRef(null);
   const [todos,setTodos] = useState(todosData)
-  const items = todosData.map(x=><TodoItem key={x.id} item={x} handleChange={handleChange} deleteTodo={deleteTodo}/>)
+  const items = todosData.map(x=>{
+  return <TodoItem 
+    key={x.id}
+    item={x} 
+    handleChange={handleChange}
+    deleteTodo={deleteTodo}/>})
 
   function handleChange(id){
     setTodos(todosData.map(x=>{

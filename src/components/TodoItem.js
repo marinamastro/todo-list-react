@@ -1,11 +1,10 @@
 import React from "react";
-//h1 style={{display: !props.question && "none"}} si los dos son verderos aplica el segundo
 import s from "../todoitem.module.css";
 function TodoItem (props) {   
   
     return (        
             <div className={s.item}>      
-                <label for={props.item.id}
+                <label htmlfor={props.item.id}
                  style={{color: props.item.completed && "gray",textDecoration:props.item.completed && "line-through"}}>
                      {props.item.text}
                 </label>
