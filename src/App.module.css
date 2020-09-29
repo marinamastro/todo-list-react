@@ -1,0 +1,40 @@
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+     color: #222831;;
+   
+}
+
+.inputText{
+    padding: 0.7rem;
+    margin: 2rem 0;
+}
+.button{
+    flex-basis: 15%;
+    margin: 2rem 0;
+    background-color: #fbd46d;
+    border: none;
+}
+.buttonDelete{
+    flex-basis: 15%;
+    margin: 2rem 0;
+    background-color: crimson;
+    border: none;
+}
+.button:hover{
+    background-color: #f7cc56;
+}
+.buttonDelete:hover{
+    background-color: rgb(201, 17, 54);
+}
+.titulo{
+    flex-basis: 100%;
+    text-align: center;
+}
+@media (max-width:739px){
+    .inputText{
+      width: 35%;
+    }
+  }
