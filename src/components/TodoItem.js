@@ -9,8 +9,7 @@ function TodoItem (props) {
                  style={{color: props.item.completed && "gray",textDecoration:props.item.completed && "line-through"}}>
                      {props.item.text}
                 </label>
-                <input type="checkbox"
-                    className="check"
+                <input type="checkbox"                    
                     id={props.item.id}
                     checked={props.item.completed} 
                     onChange={()=>props.handleChange(props.item.id)}

@@ -19,7 +19,11 @@
     cursor: pointer;
     color:#4f8a8b;
 }
-.check{
-    display: inline-block;
-    padding-left: 2rem;
+input[type="checkbox" i] {   
+    cursor: default;
+    appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 10px;
+    padding: initial;
+    border: initial;
 }
