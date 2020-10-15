@@ -1,10 +1,11 @@
-
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-     color: #222831;;
-   
+     color: #222831;   
 }
 
 .inputText{
@@ -16,18 +17,22 @@
     margin: 2rem 0;
     background-color: #fbd46d;
     border: none;
+    font-weight: bold;
 }
 .buttonDelete{
     flex-basis: 15%;
     margin: 2rem 0;
     background-color: crimson;
     border: none;
+    font-weight: bold;
 }
 .button:hover{
     background-color: #f7cc56;
+    cursor: pointer;   
 }
 .buttonDelete:hover{
     background-color: rgb(201, 17, 54);
+    cursor: pointer;
 }
 .titulo{
     flex-basis: 100%;

@@ -25,7 +25,7 @@ function App (){
     if(!value){
     alert("You must write something")
     }else{
-    setTodos(todosData.push({id:todosData.length+1,
+    setTodos(todosData.push({id:todosData.length+2,
       text:value,
       completed:false
   }))}

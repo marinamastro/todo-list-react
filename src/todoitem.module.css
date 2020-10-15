@@ -1,6 +1,6 @@
 .item{
     padding: 1rem;
-    border-bottom: 2px solid #4f8a8b;
+    /* border-bottom: 2px solid #4f8a8b; */
     flex-basis: 60%;
     display: flex;
     justify-content: center;
@@ -8,12 +8,18 @@
     position: relative;
   
 }
-.close{
-    background-color: crimson;
-    padding: 0.5rem;
-    font-size: 0.5rem;
-    color: white;
+.close{   
+    font-size: 1rem;
+    color: crimson;
     border-radius: 5px;
     position: absolute;
     right: 0;
+}
+.close:hover{
+    cursor: pointer;
+    color:#4f8a8b;
+}
+.check{
+    display: inline-block;
+    padding-left: 2rem;
 }
